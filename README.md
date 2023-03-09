@@ -1,7 +1,7 @@
 # Project 2 - A Simple Bulletin Board Using Socket Programming
 CS4065 Computer Networks & Networked Computing
 
-Sean Bridge
+Sean Bridge + Freja Kahle
 
 ## Overview
 A bulletin board system allows users to connect to it using a terminal program and perform various functions. One of the core functions of a bulletin board is to allow users to read messages posted publicly by other users. It can also be implemented in a way to allow users to join a certain group and post messages that can only be seen by users in that group. The purpose of this project is to implement a fully fledged client-server application (i.e., the bulletin board) using pure unicast sockets.
@@ -15,7 +15,7 @@ Extend Part 1 to allow users to join multiple private groups. Once a user is con
 ## Sub-System Design
 
 ### Server
-Implemented in `C++`.
+Implemented in `C++` (tentative)
 
 ### Client
-Implemented in `python`.
+Implemented in `python` (tentative)
