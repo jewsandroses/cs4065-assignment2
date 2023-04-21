@@ -1,0 +1,48 @@
+
+PART 1:
+** Start server terminal & three client terminals
+
+= All Clients
+Connect
+
+= Client 1
+Message
+    Example Message
+
+= All Clients
+ClientStatus
+Disconnect
+
+PART 2:
+
+= Client 1
+ConnectGroup
+    2
+
+= Client 2
+ConnectGroup
+    3
+
+= Client 3
+ConnectGroup
+    3
+
+= Client 1
+MessageGroup
+    2
+    Message in group #2
+
+= Client 2
+MessageGroup
+    3
+    Message in group #3
+ConnectGroup
+    4
+MessageGroup
+    4
+    Message in group #4
+
+= All Clients
+ClientStatus
+DisconnectGroup
+    [Whatever group each client is in]
